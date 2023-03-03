@@ -1,0 +1,60 @@
+.watch{
+    width: 60%;
+    display: flex;
+    text-align: center;
+    margin-top: 2%;
+    margin-left: 18%;
+    background-color: #7a5743b1;
+    border-radius: 30px;
+    
+}
+body{
+    background-color: #E9A178;
+}
+h1{
+    margin-left: 2%;
+    font-size: 150px;
+}
+.button{
+    margin-top: 4%;
+    margin-left: 43%;
+    
+}
+.d{
+    margin-left: 4%;
+}
+.headings{
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Pacifico', cursive
+}
+.footer{
+    margin-top: 3%;
+    padding-top: 2%;
+    background-color: black;
+    height: 5em;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width:993px){
+    h1{
+        font-size: 50px;
+    }
+    .headings{
+        font-size: 50px;
+        margin-top: 2%;
+    }
+    .button{
+        margin-left: 25%;
+    }
+    .footer{
+        margin-top: 10%;
+        padding-top: 6%;
+        
+    }
+    h4{
+        font-size: 15px;
+    }
+}
